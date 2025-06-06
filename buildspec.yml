@@ -6,6 +6,7 @@ phases:
       - echo "No build needed for static site"
 
 artifacts:
+  base-directory: build
   files:
-    - index.html
-  discard-paths: yes
+    - '**/*'
+  discard-paths: no
